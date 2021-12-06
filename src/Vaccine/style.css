@@ -1,0 +1,45 @@
+.vaccine-roadmap{
+
+    margin-top: 7rem;
+    margin-left: 10rem;
+    width: 80%;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    padding: 2.5rem
+    
+}
+
+.vaccine-roadmap h1{
+
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.vaccine-roadmap h1 span{
+
+      height: 20px;
+      border: 3px solid red;
+      margin-right: 10px;
+}
+
+.roadmap_content{
+
+    display: flex;
+    
+}
+
+.single-content{
+
+    margin: 20px;
+}
+
+.single-content img{
+
+    margin-left: 100px !important;
+}
+.single-content h5{
+
+    text-align: center !important;
+    margin-top: 20px !important;
+}

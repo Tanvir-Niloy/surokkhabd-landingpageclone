@@ -1,0 +1,85 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+
+
+*{
+
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'SolaimanLipi', sans-serif !important;
+
+}
+
+.navbar{
+
+    background-color: #F9FBFF;
+    padding: 10px !important;
+    box-shadow: 3px 22px 3px -23px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 22px 3px -23px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 22px 3px -23px rgba(0,0,0,0.75) !important;
+    position: sticky !important;
+}
+
+.navbar-nav{
+
+    margin-left: 150px !important;
+}
+
+
+.navbar-nav button{
+
+  border: none;
+  padding: 14px 40px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #f26d3e;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+.navbar-nav button:hover{
+
+   background-color: red;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #092753 !important;
+  }
+  @media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-link {
+      padding: 1em 0.7em;
+    }
+    .navbar {
+      padding: 0;
+    }
+    .navbar .navbar-brand {
+      padding: 0 0.7em;
+    }
+  }
+  .navbar .navbar-nav .nav-link {
+    position: relative;
+    font-size: 17px;
+    color: rgba(9,39,83,.7) !important;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #000000;
+    color: transparent;
+    width: 0%;
+    content: '';
+    height: 4px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }

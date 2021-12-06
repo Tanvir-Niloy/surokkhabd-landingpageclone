@@ -1,0 +1,138 @@
+.banner{
+
+    display: block;
+    background-image: url('../images/herobanner.jpg')  !important;
+    background-size: cover !important;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 90vh !important;
+}
+
+.hero-left{
+
+    
+    background-color: #fff;
+    width: 400px !important;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    display: flex;
+    padding: 2.2rem 1.5rem 2.2rem 2.2rem;
+    justify-content: space-between;
+    border-radius: 5px !important;
+    height: 400px !important;
+    margin-top: 100px !important;
+    margin-left: 150px !important;
+    transition: 0.5s;
+    color: #092753 !important;
+
+}
+
+
+.hero-left:hover{
+
+    background-color: #DAEDFF;
+}
+
+.hero-left h4 h5 {
+
+    font-weight: bold !important;
+    margin-top: 20px !important;
+}
+.card-right{
+
+    display: flex;
+}
+
+/* right side */
+
+
+.hero-right{
+
+    margin-top: 20px !important;
+}
+
+.singlecard{
+
+    width: 100%;
+    height: 90px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 350px;
+}
+.singlecard img{
+
+    margin-right: 20px;
+}
+
+.singlecard h4{
+
+    font-size: 21px !important;
+    font-weight: bold !important;
+}
+
+
+
+.singlecard:hover:nth-child(1){
+
+    background-color: #DFFFDA;
+}
+
+.singlecard:hover:nth-child(2){
+
+    background-color: #FEFFDA;
+}
+
+.singlecard:hover:nth-child(3){
+
+    background-color: #DAFFF2;
+}
+.singlecard:hover:nth-child(4){
+
+    background-color: #DAFDFF;
+}
+
+
+/* ---------------Herofooter------------------ */
+
+
+.separator{
+
+    height: 40px;
+    border: 0.3px solid#b0b0b0;
+}
+.herofooter{
+
+    display: flex;
+    /* position: relative; */
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    border-radius: 5px;
+    margin-top: -8vh;
+    margin-left: 7rem;
+    z-index: 2;
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 4px hsl(0deg 0% 73% / 25%);
+    
+}
+
+.herofooter strong{
+
+    color: #0d7b2c;
+}
+
+.herofooter img{
+
+    background-color: #eee;
+    border-radius: 50%;
+    padding: 10px;
+}
